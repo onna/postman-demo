@@ -25,3 +25,11 @@ Refer to our API documentation here for usage, and to register a Developer accou
 
 - [Postman](https://www.getpostman.com/), which is available for free.
 
+
+## Installing (Via Github Download)
+
+TODO: Add screens and rewrite below, because we may have more collections in the future!
+
+1) Download getting-started.json and environment.json onto your local machine
+2) Open Postman, click on Import and select the two JSON files.
+3) Once imported, a new API collection will be created, along with the environment.
