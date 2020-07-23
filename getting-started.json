@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "613973f1-ef94-4cdd-983f-a5f250c1056e",
+		"name": "Onna Getting Started",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Auth Code",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/{{container}}/{{account}}/@oauthgetcode?client_id=canonical&scope={{account}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"{{container}}",
+						"{{account}}",
+						"@oauthgetcode"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "canonical"
+						},
+						{
+							"key": "scope",
+							"value": "{{account}}"
+						}
+					]
+				},
+				"description": "Get your for `auth_code`, this code is required for authentication.\n\nDocumentation: https://developers.onna.com/tutorial/primer/authentication.html"
+			},
+			"response": []
+		},
+		{
+			"name": "Onna Me (endpoint)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/{{oauth_path}}/me?scope={{account}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{oauth_path}}",
+						"me"
+					],
+					"query": [
+						{
+							"key": "scope",
+							"value": "{{account}}"
+						}
+					]
+				},
+				"description": "Retrieving account information via the `me` endpoint.\n\nDocumentation: https://developers.onna.com/tutorial/primer/authentication.html"
+			},
+			"response": []
+		},
+		{
+			"name": "Onna Account Status",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/{{container}}/{{account}}/@statusAccount?&scope={{account}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"{{container}}",
+						"{{account}}",
+						"@statusAccount"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "scope",
+							"value": "{{account}}"
+						}
+					]
+				},
+				"description": "Get information about your account via the `@statusAccount` endpoint.\n\nDocumentation: https://developers.onna.com/tutorial/primer/authentication.html"
+			},
+			"response": []
+		},
+		{
+			"name": "Inspect User Object (Onna Account)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/{{container}}/{{account}}/{{user}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"{{container}}",
+						"{{account}}",
+						"{{user}}"
+					]
+				},
+				"description": "Inspect your user object, , which is also a container for data that you own in the Onna platform.\n\nDocumentation: https://developers.onna.com/tutorial/primer/authentication.html"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

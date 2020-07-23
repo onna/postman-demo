@@ -1,0 +1,44 @@
+{
+	"id": "36f8bb15-ae1d-4479-ad29-9ef3f291b9f8",
+	"name": "Onna Postman Demo",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "https://enterprise.onna.com",
+			"enabled": true
+		},
+		{
+			"key": "oauth_path",
+			"value": "/auth/oauth",
+			"enabled": true
+		},
+		{
+			"key": "user",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "container",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "account",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-07-23T07:56:36.201Z",
+	"_postman_exported_using": "Postman/7.28.0"
+}
