@@ -19,7 +19,7 @@ These are Postman collections for showcasing Onna.
 
 The environment.json files provided contain a list of variables used by the API collection.
 
-Refer to our API documentation here for usage, and to register a Developer account with us.
+Refer to our [documentation](https://developers.onna.com "Link to Onna developer docs") for usage, and to register a Developer account with us.
 
 ## Requirements
 
