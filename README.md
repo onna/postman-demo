@@ -20,3 +20,8 @@ These are Postman collections for showcasing Onna.
 The environment.json files provided contain a list of variables used by the API collection.
 
 Refer to our API documentation here for usage, and to register a Developer account with us.
+
+## Requirements
+
+- [Postman](https://www.getpostman.com/), which is available for free.
+
