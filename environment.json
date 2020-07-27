@@ -19,12 +19,12 @@
 		},
 		{
 			"key": "container",
-			"value": "",
+			"value": "ONNA_CONTAINER",
 			"enabled": true
 		},
 		{
 			"key": "account",
-			"value": "",
+			"value": "ONNA_ACCOUNT_NAME",
 			"enabled": true
 		},
 		{
