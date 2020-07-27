@@ -1,6 +1,6 @@
 {
 	"id": "36f8bb15-ae1d-4479-ad29-9ef3f291b9f8",
-	"name": "Onna Postman Demo",
+	"name": "Onna API Demo",
 	"values": [
 		{
 			"key": "base_url",
@@ -14,7 +14,7 @@
 		},
 		{
 			"key": "user",
-			"value": "",
+			"value": "ONNA_USERNAME",
 			"enabled": true
 		},
 		{
@@ -29,12 +29,12 @@
 		},
 		{
 			"key": "password",
-			"value": "",
+			"value": "ONNA_PASSWORD",
 			"enabled": true
 		},
 		{
 			"key": "token",
-			"value": "",
+			"value": "ONNA_JWT_TOKEN",
 			"enabled": true
 		}
 	],
