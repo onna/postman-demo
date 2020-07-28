@@ -11,7 +11,7 @@
   <img src="https://onna.com/wp-content/uploads/2020/03/h-onna-solid.png" alt="Onna Logo"></a>
 </h1>
 
-<h2 align="center">Onna Postman Collections</h2>
+<h2 align="center">Onna Postman Collection</h2>
 
 ## About
 
