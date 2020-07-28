@@ -30,6 +30,10 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 
 TODO: Add screens and rewrite below, because we may have more collections in the future!
 
-1) Download getting-started.json and environment.json onto your local machine
+1) Download `onna-api-example.json` and `environment.json` onto your local machine.
 2) Open Postman, click on Import and select the two JSON files.
 3) Once imported, a new API collection will be created, along with the environment.
+4) Update the environment values.
+
+ADD HERE MORE AND BETTER DOCS
+SET VALE TO ACTIVE
