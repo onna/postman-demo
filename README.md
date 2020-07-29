@@ -36,6 +36,30 @@ TODO: Add screens and rewrite below, because we may have more collections in the
 
 <!-- vale on -->
 
+
+## Configuration
+
+### Token
+
+#### Chrome
+
+1. Launch Chrome’s built-in developer tools using `[F12]`.
+2. Open the Network tab.
+3. Hit `[F5]` or browse to something within the current tab.
+4. Once you have some output select the name of any object to view the HTTP headers.
+5. Scroll to the **authorization Bearer** header and copy the token
+
+![JWT Chrome](./assets/token-chrome.png)
+
+### Firefox
+
+1. Launch Firefox’s built-in developer tools using `[F12]`.
+2. Select the **Network** tab in the developer tools navigation bar.
+3. Hit  [F5] or browse to something within that tab.
+4. Once you have some output select the name of any object with a `200` status to view the HTTP headers.
+
+![JWT Firefox](./assets/token-firefox.png)
+
 ### Values
 
 Postman allows to use a configurable environment using a set of key-value pairs.
@@ -55,10 +79,11 @@ Select *Edit* (highlighted in blue below):
 
 Replace the following values with your own initial one:
 
-- `username`: Username you provided during self-registration. For example `username@email.io`.
-- `account`: The name of your account.
-- `container`: The name of the database attached to your account. Onna naming convention is to use the account name you provided during the self-registration process
-- `scope`: The name of your account.
+- `user`: Username you provided during self-registration. For example `username@email.io`.
+- `container`: The name of the database attached to your account. Onna naming convention is to use the account name you provided during the self-registration process.
+- `account`: May be the same value as container.
+- `password`: Password of your account.
+- `token`: Your JWT token
 
 `scope`, `container`, and `account` may be the same value.
 
