@@ -15,7 +15,7 @@ jobs:
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
-        config-file: '.github/mlc_config.json'
+        config-file: '.github/.mlc_config.json'
 
 
   wording:
@@ -24,7 +24,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Vale
+    - name: vale
       uses: errata-ai/vale-action@v1.2.0
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
