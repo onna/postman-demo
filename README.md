@@ -13,13 +13,11 @@
 
 <h2 align="center">Onna Postman Collections</h2>
 
-<!-- vale on -->
-
 ## About
 
 These are Postman collections for showcasing Onna.
 
-The environment.json files provided contain a list of variables used by the API collection.
+The `environment.json` files provided contain a list of variables used by the API collection.
 
 Refer to our [documentation](https://developers.onna.com "Link to Onna developer docs") for usage, and to register a Developer account with us.
 
@@ -35,6 +33,8 @@ TODO: Add screens and rewrite below, because we may have more collections in the
 1. Download and install [Postman](https://www.postman.com/ "Link to Postman").
 2. Sign up for an [Onna account](https://register.onna.com/signup?trial=true "Link to trail sign up") and follow the instructions.
 3. Download the `onna-api-example.json` and `environment.json` files from the [GitHub repo](https://github.com/onna/postman-demo "Link to Onna Demo Repo on GitHub").
+
+<!-- vale on -->
 
 ### Values
 
