@@ -11,7 +11,9 @@
   <img src="https://onna.com/wp-content/uploads/2020/03/h-onna-solid.png" alt="Onna Logo"></a>
 </h1>
 
-<h2 align="center">Onna Postman Collection</h2>
+<h2 align="center">Onna Postman Collections</h2>
+
+<!-- vale on -->
 
 ## About
 
@@ -24,16 +26,52 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 ## Requirements
 
 - [Postman](https://www.getpostman.com/), which is available for free.
-
+- [Onna account](https://register.onna.com/signup?trial=true "Link to trail sign up")
 
 ## Installing (Via Github Download)
 
 TODO: Add screens and rewrite below, because we may have more collections in the future!
 
-1) Download `onna-api-example.json` and `environment.json` onto your local machine.
-2) Open Postman, click on Import and select the two JSON files.
-3) Once imported, a new API collection will be created, along with the environment.
-4) Update the environment values.
+1. Download and install [Postman](https://www.postman.com/ "Link to Postman").
+2. Sign up for an [Onna account](https://register.onna.com/signup?trial=true "Link to trail sign up") and follow the instructions.
+3. Download the `onna-api-example.json` and `environment.json` files from the [GitHub repo](https://github.com/onna/postman-demo "Link to Onna Demo Repo on GitHub").
 
-ADD HERE MORE AND BETTER DOCS
-SET VALE TO ACTIVE
+### Values
+
+Postman allows to use a configurable environment using a set of key-value pairs.
+Creating commonly used variables that can be referenced by multiple requests in a collection.
+
+More documentation on the Postman environment can be found in the [Postman docs](https://www.getpostman.com/docs/v6/postman/environments_and_globals/manage_environments "Link to Postman docs about environments").
+
+It is important that you edit and replace some of these variables with your own values.
+
+Access the edit dialog by clicking the gray eye button next to the environment dropdown (highlighted in blue below):
+
+![postman 1](./assets/postman-config1.png)
+
+Select *Edit* (highlighted in blue below):
+
+![postman 2](./assets/postman-config2.png)
+
+Replace the following values with your own initial one:
+
+- `username`: Username you provided during self-registration. For example `username@email.io`.
+- `account`: The name of your account.
+- `container`: The name of the database attached to your account. Onna naming convention is to use the account name you provided during the self-registration process
+- `scope`: The name of your account.
+
+`scope`, `container`, and `account` may be the same value.
+
+You should have obtained these when creating your own [Onna account](https://register.onna.com/signup?trial=true "Onna account registration").
+
+You can find more information in our [glossary](./glossary.md "Link to Onna glossary").
+
+## Examples
+
+### Retrieving Account Information
+
+![postman 3](./assets/postman-me-endpoint.png)
+
+### Account Status Overview
+
+![postman 3](./assets/postman-account-status.png)
