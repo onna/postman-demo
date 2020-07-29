@@ -1,5 +1,5 @@
 name: Checking Commit
-
+on: push
 # on:
 #   push:
 #     # Sequence of patterns matched against refs/heads
