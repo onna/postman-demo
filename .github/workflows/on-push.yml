@@ -1,0 +1,30 @@
+name: Checking Commit
+
+# on:
+#   push:
+#     # Sequence of patterns matched against refs/heads
+#     branches-ignore:
+#       - 'master'  # Ignore push events to branches matching master
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/mlc_config.json'
+
+
+  wording:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Vale
+      uses: errata-ai/vale-action@v1.2.0
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

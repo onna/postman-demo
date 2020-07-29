@@ -28,8 +28,6 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 
 ## Installing (Via Github Download)
 
-TODO: Add screens and rewrite below, because we may have more collections in the future!
-
 1. Download and install [Postman](https://www.postman.com/ "Link to Postman").
 2. Sign up for an [Onna account](https://register.onna.com/signup?trial=true "Link to trail sign up") and follow the instructions.
 3. Download the `onna-api-example.json` and `environment.json` files from the [GitHub repo](https://github.com/onna/postman-demo "Link to Onna Demo Repo on GitHub").
@@ -89,7 +87,7 @@ Replace the following values with your own initial one:
 
 You should have obtained these when creating your own [Onna account](https://register.onna.com/signup?trial=true "Onna account registration").
 
-You can find more information in our [glossary](./glossary.md "Link to Onna glossary").
+You can find more information in our [glossary](https://developers.onna.com/glossary.html "Link to Onna glossary").
 
 ## Examples
 
