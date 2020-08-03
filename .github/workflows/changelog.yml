@@ -1,0 +1,19 @@
+name: Changelog
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Check Changelog Update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Changelog check
+        uses: Zomzog/changelog-checker@v1.0.0
+        with:
+          fileName: CHANGELOG.md # default `CHANGELOG.adoc`
+          noChangelogLabel: my custom label # default `no changelog`
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
