@@ -52,7 +52,7 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 ### Firefox
 
 1. Launch Firefox’s built-in developer tools using `[F12]`.
-2. Select the **Network** tab in the developer tools navigation bar.
+2. Choose the **Network** tab in the developer tools navigation bar.
 3. Select  [F5] or browse to something within that tab.
 4. Once you have some output select the name of any object with a `200` status to view the HTTP headers.
 
