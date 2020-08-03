@@ -43,7 +43,7 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 
 1. Launch Chrome’s built-in developer tools using `[F12]`.
 2. Open the Network tab.
-3. Hit `[F5]` or browse to something within the current tab.
+3. Select `[F5]` or browse to something within the current tab.
 4. Once you have some output select the name of any object to view the HTTP headers.
 5. Scroll to the **authorization Bearer** header and copy the token
 
@@ -53,7 +53,7 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 
 1. Launch Firefox’s built-in developer tools using `[F12]`.
 2. Select the **Network** tab in the developer tools navigation bar.
-3. Hit  [F5] or browse to something within that tab.
+3. Select  [F5] or browse to something within that tab.
 4. Once you have some output select the name of any object with a `200` status to view the HTTP headers.
 
 ![JWT Firefox](./assets/onna-jwt-firefox.png)
