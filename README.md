@@ -37,6 +37,12 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 
 ## Configuration
 
+### Postman
+
+You can disable all tracking by setting *Send anonymous usage data to Postman* to **OFF** in the settings window.
+
+![Postman Disable Telemetry](./assets/postman-off.png)
+
 ### Token
 
 #### Chrome
