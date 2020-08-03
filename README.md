@@ -17,7 +17,7 @@
 
 These are Postman collections for showcasing Onna.
 
-The `environment.json` files provided contain a list of variables used by the API collection.
+The `environment.json` file contains a list of variables used by the API collection.
 
 Refer to our [documentation](https://developers.onna.com "Link to Onna developer docs") for usage, and to register a Developer account with us.
 
@@ -47,7 +47,7 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 4. Once you have some output select the name of any object to view the HTTP headers.
 5. Scroll to the **authorization Bearer** header and copy the token
 
-![JWT Chrome](./assets/token-chrome.png)
+![JWT Chrome](./assets/onna-jwt-chrome.png)
 
 ### Firefox
 
@@ -56,7 +56,7 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 3. Hit  [F5] or browse to something within that tab.
 4. Once you have some output select the name of any object with a `200` status to view the HTTP headers.
 
-![JWT Firefox](./assets/token-firefox.png)
+![JWT Firefox](./assets/onna-jwt-firefox.png)
 
 ### Values
 
