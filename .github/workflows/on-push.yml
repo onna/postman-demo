@@ -27,3 +27,12 @@ jobs:
       uses: errata-ai/vale-action@v1.2.0
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+    - name: gitleaks-action
+      uses: zricethezav/gitleaks-action@master
