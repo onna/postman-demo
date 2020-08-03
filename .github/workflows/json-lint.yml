@@ -23,3 +23,4 @@ jobs:
       run: |
         jsonlint environment.json
         jsonlint onna-api-example.json
+        jsonlint package.json
