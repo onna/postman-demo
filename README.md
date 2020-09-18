@@ -23,10 +23,10 @@ Refer to our [documentation](https://developers.onna.com "Link to Onna developer
 
 ## Requirements
 
-- [Postman](https://www.getpostman.com/), which is available for free.
+- [Postman](https://www.getpostman.com/)
 - [Onna account](https://register.onna.com/signup?trial=true "Link to trail sign up")
 
-## Installing (Via Github Download)
+## Installing (Via GitHub Download)
 
 1. Download and install [Postman](https://www.postman.com/ "Link to Postman").
 2. Sign up for an [Onna account](https://register.onna.com/signup?trial=true "Link to trail sign up") and follow the instructions.
